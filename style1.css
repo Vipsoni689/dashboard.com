@@ -4764,19 +4764,18 @@ footer .right ul li span {
 
 
 @media screen and (min-width:320px) and (max-width:480px){
-    #left_toggle{
-        left: -280px !important;
-        position: absolute;
-        width: auto;
-        z-index: 33;
+   #left_toggle{
+       display: none;
     }
     #nav{
         /* display: none !important; */
         padding: 0px !important;
+        background-color: red;
     }
     #nav .nav_right{
         width: 100% !important;
         padding: 0 !important;
+        background-color: transparent;
     }
     #nav .nav_right .nav_box{
         width: 100%;
